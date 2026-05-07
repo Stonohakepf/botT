@@ -20,7 +20,7 @@ async def open_payments(message: Message):
     await message.answer("💳 Меню оплати:", reply_markup=payment_menu())
 
 @router.message(F.text == "💳 Швидка оплата ( 500 грн )")
-async def fast_pay(message: Message):
+async def fast_pay(message: Message, state: FSMContext):
 
     amount = 500
 
