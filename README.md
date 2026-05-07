@@ -40,7 +40,7 @@ Telegram-бот для інтернет-провайдера **RO-NET**, роз�
 ### 1️⃣ Клонування репозиторію
 
 ```bash
-git clone 
+git clone https://github.com/Stonohakepf/botT.git
 cd PROJECT_FOLDER
 ```
 
@@ -55,8 +55,8 @@ pip install -r requirements.txt
 Створи файл `.env` у корені проєкту:
 
 ```env
-BOT_TOKEN=
-BASE_WEBHOOK_URL=.onrender.com
+BOT_TOKEN=TOKEN
+BASE_WEBHOOK_URL=(https://bott-79sa.onrender.com)
 ```
 
 ---
@@ -157,7 +157,7 @@ project/
 Бот автоматично встановлює webhook:
 
 ```
-https://.onrender.com/webhook
+https://bott-79sa.onrender.com/webhook
 ```
 
 ---
